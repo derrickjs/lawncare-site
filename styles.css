@@ -1,0 +1,350 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+    margin:0;
+    padding:0
+}
+
+body{
+    
+    margin:0;
+	padding:0;
+	background-color: #baab7d
+    ;
+	
+	min-height: 400px;
+
+
+}
+
+/* header section starts */
+li, a , button {
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+	
+
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid 2px lightgrey;
+    background-color: #8a8962;
+}
+
+.logo{
+	cursor: pointer;
+	
+	
+}
+
+
+.nav-link{
+	list-style: none;
+	
+}
+
+.nav-link li {
+	display: inline-block;
+	margin: 1em;
+}
+
+.nav-link li a {
+	transition: all 0.8s ease 0s;
+	padding: 1em;
+    
+}
+
+.nav-link li a:hover {
+	color: white;
+	background-color: #9bb3a3;
+	border-radius: 50%;
+
+}
+
+.nav-link li a:focus{
+    color:white;
+    background-color:#9bb3a3;
+    border-radius: 50%;
+}
+
+/* header section ends */
+
+
+
+
+
+/* content starts */
+
+.mapheader{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 6%;
+}
+
+.mappic{
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    border:solid black 1px; 
+    border-radius: 5%;
+    
+}
+
+
+
+
+/* content ends */
+
+.content1 {
+	display: grid;
+	position: inline-block;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 2%;
+	grid-row-gap: 0px;
+	min-height:95vh;
+
+	
+	
+	}
+
+    .contenth2{
+        display:none;
+    }
+  
+    h2{
+        margin: 0 auto;
+        padding: 3% 0;
+
+        
+    }
+
+    .services{
+        text-align: center;
+        
+    }
+
+    .li-service{
+        font-size: 3rem;
+        color:black;
+        padding: 2%;
+    }
+
+    .righth2{
+        margin: 5% 5%;
+        font-size: 4rem;
+        text-align: center;
+        border:2px solid black;
+        border-radius: 50%;
+      }
+
+    .rightside{
+		box-sizing: border-box;
+		margin:0 auto;
+		font-family: sans-serif;
+		
+		width: 100%;
+       
+		
+		
+	  }
+    
+
+    .leftside{
+        
+        padding-left: 4%; 
+        font-size: 1.5rem;
+        padding-bottom: 20%;
+        
+        
+    }
+
+    p{
+        text-indent: 10%;
+        font-size: 1.4em;
+       
+       
+        
+    }
+  
+	a{
+		font-size: 1.5rem;
+	}
+
+	
+
+	
+
+	.history p:last-child{
+		padding-bottom: 2%;
+		border-bottom: 2px solid black;
+	}
+
+
+
+
+
+    
+      .bigger{
+        font-size:2em;
+        color: #514e40;
+      }
+      
+      
+       
+        
+      
+      
+      hr{
+        width: 50%;
+        height:4px;
+        margin: 5% auto;
+        background: black;
+        
+        }
+
+		
+	
+      
+
+
+
+
+
+/* footer begins */
+
+footer {
+	display:flex;
+    color : white;
+	background-color: #8a8962;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5vh;
+	width: 100%;
+	border-top: 2px solid lightgray;
+	justify-content:center;
+	align-items:center;
+   
+	
+	 
+	
+	}
+	 
+    .phone , .address , .copyright {
+	   
+        font-size: .8rem;
+     margin:auto;
+      }
+      
+      .copyright{
+         font-size: 1.05rem;
+      }
+	 
+	 
+     
+	 /* footer ends */
+
+	 @media only screen and (max-width: 768px) {
+		/* For mobile phones: */
+
+        .content1{
+            display: block;
+            width: 100%;
+            
+            
+        }
+		.leftside {
+			display:block;
+		  	width: 100%;
+		}
+
+        .rightside{
+        display: block;
+        padding-bottom: 90%;
+        margin-bottom: 15%;
+        }
+
+        
+
+        .contenth2{
+            padding-top:20%;
+            display: block;
+            font-size: 2em;
+            text-align: center;
+        }
+
+		.logo{
+			display: block;
+			margin:0 auto;
+            margin-bottom: 5%;
+		}
+		header{
+			display: block;
+			background-color: #8a8962;
+            padding-bottom: 5%;
+
+
+		}
+
+		ul.nav-link{
+			padding:0;
+			text-align: center;
+		}
+
+		footer{
+			height:5vmax;
+            
+		}
+
+		.nav-link li a:hover{
+			color:white ;
+			background-color: #9bb3a3 ;
+		}
+
+		li, a , button{
+			color:white;
+		}
+
+        
+		
+	  }
+
+
+
+      .headerleft{
+        display: inline-block;
+        font-size: 2.5em;
+        
+        
+        
+      }
+
+      .imgright{
+        display: inline-block;
+        float: right;
+        
+        
+      }
+
+     
+
+      
+
+      .imgphone:hover {
+        
+      
+         
+        animation:spin 2s linear ;
+    }
+  
+    
+    
