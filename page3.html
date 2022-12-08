@@ -12,6 +12,9 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 
+  
+
+
 </head>
 <body>
     <header>
@@ -43,14 +46,24 @@
 
     </section>
 
-    <section class = "leftside">
+    <section class = "rightside">
 
-        <img class = "imgright"   width= 100% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750551/family_photo4_v9visz.jpg"   alt = "pic1">
-        <img class = "imgright"   width= 100% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750544/family_photo3_mutscy.jpg"   alt = "pic2">
-        <img class = "imgright"   width= 100% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750559/family_photo5_envxh0.jpg"   alt = "pic3">
-        <img class = "imgright"   width= 100% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750525/family_photo1_a91p10.jpg"   alt = "pic4">
-        <img class = "imgright"   width= 100% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750533/family_photo2_uhzquz.jpg"   alt = "pic5">
-        <img class = "imgright"   width= 100% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750566/family_photo6_tqk8kb.jpg"   alt = "pic6">
+        <div class = "buttonArea">
+
+                <button onclick = "prev()" id = "previous">Previous</button>
+                <button onclick = "next()" id = "next">Next</button>
+    
+            
+        </div>
+
+        <div id="slide">
+            <img class  = 'image'   width = "100%"  src = " https://res.cloudinary.com/derrickstahlman/image/upload/v1669750551/family_photo4_v9visz.jpg"  width = 80% >
+        </div>
+        
+            
+
+        
+        
 
 
     </section>
@@ -73,6 +86,8 @@
 
 
 <script src = "script.js"></script>
+
+
     
 </body>
 </html>
