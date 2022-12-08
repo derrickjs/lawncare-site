@@ -9,8 +9,7 @@ body{
     
     margin:0;
 	padding:0;
-	background-color: #baab7d
-    ;
+	background-color: #baab7d;
 	
 	min-height: 400px;
 
@@ -25,6 +24,7 @@ li, a , button {
 	color: white;
 	text-decoration: none;
 	list-style-type: none;
+   
 	
 
 }
@@ -64,6 +64,7 @@ header {
 	color: white;
 	background-color: #9bb3a3;
 	border-radius: 50%;
+    
 
 }
 
@@ -71,6 +72,7 @@ header {
     color:white;
     background-color:#9bb3a3;
     border-radius: 50%;
+    
 }
 
 /* header section ends */
@@ -326,7 +328,7 @@ footer {
 
         form.form{
             width: 80%;
-            background-color: lightgray;
+            
         }
 
         .imgAppear{
