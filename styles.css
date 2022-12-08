@@ -33,7 +33,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: solid 2px lightgrey;
+	border-bottom: solid 1px black;
     background-color: #8a8962;
 }
 
@@ -137,6 +137,12 @@ header {
         padding: 2%;
     }
 
+    .imgright{
+        float:right;
+        border: 2px black solid;
+        border-radius: 3%;
+    }
+
     .righth2{
         margin: 5% 5%;
         font-size: 4rem;
@@ -149,6 +155,7 @@ header {
 		box-sizing: border-box;
 		margin:0 auto;
 		font-family: sans-serif;
+        padding-right: 4%;
 		
 		width: 100%;
        
@@ -230,7 +237,7 @@ footer {
 	right: 0;
 	height: 5vh;
 	width: 100%;
-	border-top: 2px solid lightgray;
+	border-top: 1px solid black;
 	justify-content:center;
 	align-items:center;
    
@@ -265,12 +272,14 @@ footer {
 		.leftside {
 			display:block;
 		  	width: 100%;
+            padding:2%;
 		}
 
         .rightside{
         display: block;
         padding-bottom: 90%;
         margin-bottom: 15%;
+        padding:2%;
         }
 
         
@@ -286,6 +295,7 @@ footer {
 			display: block;
 			margin:0 auto;
             margin-bottom: 5%;
+            border-radius: 20%;
 		}
 		header{
 			display: block;
@@ -314,37 +324,137 @@ footer {
 			color:white;
 		}
 
+        form.form{
+            width: 80%;
+            background-color: lightgray;
+        }
+
+        .imgAppear{
+            width:80%
+        }
+
+        .mappic{
+            width: 90%;
+            margin-bottom: 10%;
+        }
+
+    .imgright{
+        width:100%;
+    }
+
+        
+
+        
+
+
+        
+
+        
+
         
 		
 	  }
 
 
 
-      .headerleft{
-        display: inline-block;
-        font-size: 2.5em;
+      
+
+	  #title{
+		margin-bottom: 1em;
+		
+	  }
+	  
+	  
+	  #msg {
+		display:block;
+		width: 75%;
+		height: 15vh;
+	  }
+	  
+	  #title{
+		text-align: center;
+	  }
+
+	  #submitForm{
+		color:black;
+
+	  }
+
+      .show{
+        color:black;
+        font-size:2.5rem;
+        text-align: center;
+        display:none;
         
+        
+       
         
         
       }
 
-      .imgright{
-        display: inline-block;
-        float: right;
+      .imgAppear{
+        border: solid black 2px;
+        margin-bottom: 15%;
+        border-radius: 5%;
+      }
+      
+    form{
+		width: 50%;
+		background-color: white;
+		padding: 2em;
+		margin: 5em auto;
+		border:  solid 1px;
+		font-size: 1.5rem;
+        display: block;
+		
+	  }
+
+      button{
+        color: white;
+        text-align: center;
+        margin:3%;
+        padding: 2%;
+        border:solid black 1px;
+        border-radius: 50%;
+        background-color: #8a8962;
         
         
       }
 
-     
+      
+button  {
+	transition: all 0.8s ease 0s;
+	padding: 1em;
+    
+}
 
+button:hover {
+	
+	background-color: #9bb3a3;
+	border-radius: 50%;
+
+}
+
+
+
+      .buttonArea{
+       
+       display:flex;
+       justify-content: center;
       
 
-      .imgphone:hover {
-        
-      
-         
-        animation:spin 2s linear ;
-    }
-  
+       
+      }
+
+
+
+
+.image{
+    border:black 2px solid;
+    border-radius: 2%;
     
     
+
+    
+}
+
