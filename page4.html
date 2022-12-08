@@ -22,7 +22,7 @@
         <nav> 
             <ul class = "nav-link">
                 <li> <a href = "index.html">Home</a></li>
-                <li> <a href = "#page2.html">Service Area</a></li>
+                <li> <a href = "page2.html">Service Area</a></li>
                 <li> <a href = "page3.html">About</a></li>
                 <li> <a href = "page4.html">Contact</a></li>
             </ul>
@@ -31,8 +31,68 @@
 
     </header>
 
-    <main class = "content">
-       <h1 class = "mapheader">Check out the map below to see if we service your area</h1>
+    <main class = "content contentPic ">
+
+       
+        <form class = "form" onsubmit = "return false"> <!-- set onsubmit to return false to prevent page reload on button click-->
+            <h1 id = "title">Contact Us</h1>
+             
+            <label for="first-name">First name: </label><input type="text" name="name" id="first-name" /> <br />
+            <label for="parent-name">Last Name: </label><input type="text" name="last-name" id="last-name" /> <br />
+            
+            <label for="phone">Enter your phone number:</label>
+
+            <input type="tel" id="phone" name="phone" pattern="[0-1]{1}[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            <small>Format: 11234567890</small>
+
+            <br/>
+
+            <label for="email">Email: </label><input type="email" name="email" id="email" /> <br />
+
+            <div class = "date">
+
+            
+
+            </div>
+
+            
+                
+
+            <small>Office hours are 9am to 6pm</small> 
+            <br/>
+            <br/>
+      
+            <section id = "permission"><p> Do we have your permission to keep this form on file?</p>
+            <label for="permission">yes</label><input type="checkbox" name="group2" id="gp2-2" value=2  checked/>
+            
+          <label for="permission2">no</label><input type="checkbox" name="group2" id="gp2-3" value=3 />
+            </section>
+            <br/>
+      
+            
+
+            <br />
+            
+            <textarea name="msg" id="msg">Additional Information you would like to provide.
+
+            </textarea>
+            <br/>
+            
+      
+            <button id = "submitForm">Click to Submit</button>
+      
+
+            
+            
+          </form>
+
+          <div class = "show">
+            <h2>
+                Thank you for contacting us.
+                </h2>
+                <img class = "imgAppear"   width= 50% src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1669750533/family_photo2_uhzquz.jpg"   alt = "pic5">
+
+        </div>
 
 
     </main>
